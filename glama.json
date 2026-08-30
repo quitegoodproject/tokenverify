@@ -1,0 +1,21 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "tokenverify-mcp",
+  "description": "Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Anti-Fraud Gateway.",
+  "homepage": "https://tokenverifyapi.com",
+  "repository": "https://github.com/quitegoodproject/tokenverify",
+  "transport": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "tokenverify-mcp"
+    ]
+  },
+  "tags": [
+    "mcp",
+    "ai-agents",
+    "developer-primitives",
+    "quitegoodproject"
+  ]
+}

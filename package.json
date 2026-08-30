@@ -1,0 +1,30 @@
+{
+  "name": "@quitegoodproject/tokenverify-mcp",
+  "version": "1.0.0",
+  "description": "Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Fraud Prevention Gateway for Checkout Rails & AI Agents.",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "tokenverify": "./bin/cli.js",
+    "tokenverify-mcp": "./bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tokenverify",
+    "vat-checksum",
+    "tax-id-validation",
+    "fraud-prevention",
+    "quitegoodproject"
+  ],
+  "author": "The Quite Good Project <engineering@quitegoodproject.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/tokenverify"
+  },
+  "homepage": "https://tokenverifyapi.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  }
+}

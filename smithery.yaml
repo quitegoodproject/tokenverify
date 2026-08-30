@@ -1,0 +1,12 @@
+name: tokenverify-mcp
+version: 1.0.0
+description: Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Anti-Fraud Gateway.
+repository: https://github.com/quitegoodproject/tokenverify
+homepage: https://tokenverifyapi.com
+command: npx
+args:
+  - -y
+  - tokenverify-mcp
+tools:
+  - name: verify_b2b_lead
+    description: Validates VAT checksums (ISO 7064), disposable emails, and telco phone risk.

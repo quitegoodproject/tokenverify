@@ -1,0 +1,17 @@
+{
+  "name": "tokenverify-mcp",
+  "version": "1.0.0",
+  "description": "Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Anti-Fraud Gateway.",
+  "author": "Quite Good Project",
+  "homepage": "https://tokenverifyapi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/tokenverify.git"
+  },
+  "tools": [
+    {
+      "name": "verify_b2b_lead",
+      "desc": "Validates VAT checksums (ISO 7064), disposable emails, and telco phone risk."
+    }
+  ]
+}
