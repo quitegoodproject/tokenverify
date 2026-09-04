@@ -5,8 +5,8 @@
   "main": "bin/cli.js",
   "type": "module",
   "bin": {
-    "tokenverify": "./bin/cli.js",
-    "tokenverify-mcp": "./bin/cli.js"
+    "tokenverify": "bin/cli.js",
+    "tokenverify-mcp": "bin/cli.js"
   },
   "keywords": [
     "mcp",
@@ -21,10 +21,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quitegoodproject/tokenverify"
+    "url": "git+https://github.com/quitegoodproject/tokenverify.git"
   },
-  "homepage": "https://tokenverifyapi.com",
+  "homepage": "https://quitegoodproject.com",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
