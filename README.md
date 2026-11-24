@@ -16,7 +16,29 @@
 
 ---
 
-## 🚀 Quickstart (REST API)
+## 🚀 Quickstart
+
+### Claude Desktop & Cursor MCP Setup
+
+> 🎁 **Free Sandbox Bonus**: Pass `--email you@company.com` in `args` to instantly double your free sandbox quota from 50 to **100 requests**! Zero credit card required.
+
+```json
+{
+  "mcpServers": {
+    "tokenverify": {
+      "command": "npx",
+      "args": ["-y", "@quitegoodproject/tokenverify-mcp", "--email", "you@company.com"]
+    }
+  }
+}
+```
+
+Or run via CLI:
+```bash
+npx -y @quitegoodproject/tokenverify-mcp --email you@company.com
+```
+
+### REST API (`POST /v1/verify/b2b-lead`)
 
 ```bash
 curl -X POST "https://tokenverifyapi.com/v1/verify/b2b-lead" \

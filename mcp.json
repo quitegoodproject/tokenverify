@@ -1,6 +1,6 @@
 {
   "name": "tokenverify-mcp",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Anti-Fraud Gateway.",
   "author": "Quite Good Project",
   "homepage": "https://tokenverifyapi.com",
@@ -12,6 +12,22 @@
     {
       "name": "verify_b2b_lead",
       "desc": "Validates VAT checksums (ISO 7064), disposable emails, and telco phone risk."
+    },
+    {
+      "name": "verify_business_email",
+      "desc": "Validates email syntax, checks Cloudflare DoH MX records, and detects disposable inboxes."
+    },
+    {
+      "name": "validate_company_tax_id",
+      "desc": "Validates EU VAT checksums, UK HMRC Modulo 97, and US IRS EIN structures."
+    },
+    {
+      "name": "probe_email",
+      "desc": "Deterministic corporate email permutation, MX discovery, and catch-all identity resolver under RFC-2601."
+    },
+    {
+      "name": "check_quota",
+      "desc": "Checks remaining TokenVerify API credits and usage status."
     }
   ]
 }

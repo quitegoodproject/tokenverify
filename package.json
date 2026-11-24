@@ -1,6 +1,6 @@
 {
   "name": "@quitegoodproject/tokenverify-mcp",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Fraud Prevention Gateway for Checkout Rails & AI Agents.",
   "main": "bin/cli.js",
   "type": "module",

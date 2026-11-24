@@ -1,7 +1,7 @@
 name: tokenverify-mcp
 displayName: TokenVerify
-description: Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Anti-Fraud Gateway for AI Agents.
-version: 1.0.0
+description: Sub-50ms Edge B2B Trust, VAT/Tax Checksum & Fraud Prevention Gateway for Checkout Rails & AI Agents.
+version: 1.2.1
 homepage: https://tokenverifyapi.com
 repository: https://github.com/quitegoodproject/tokenverify
 license: MIT
@@ -13,6 +13,9 @@ startCommand:
       apiKey:
         type: string
         description: TokenVerify API Key (optional for free tier)
+      email:
+        type: string
+        description: Developer work email (unlocks 100 free requests automatically)
   commandFunction:
     name: npx
     args:
